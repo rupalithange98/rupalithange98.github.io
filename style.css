@@ -1,0 +1,256 @@
+body{
+    font-family: Algerian;
+    margin: 0;
+
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: Algerian;
+    text-shadow: 0 0 5px black;
+    text-decoration:underline;
+}
+aside{
+    background:linear-gradient(45deg,blue,navy,black);
+    border: 5px solid black;
+    width:250px;
+    height:100%;
+    background-size: cover;
+    position:fixed;
+    border-radius: 20px;
+
+}
+aside a{
+    display: block;
+    color:white;
+    padding: 20px ;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+
+}
+aside img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #000049;
+    box-shadow: 0 0 15px white;
+    margin-top: 80px;
+    margin-left:40px;
+
+}
+
+aside a:hover{
+    color: dodgerblue;
+    box-shadow: 0 0 10px black;
+}
+#about{
+    margin-left: 250px;
+    padding: 18px;
+}
+#about h1{
+    font-size: 80px;
+    margin: 80px 0 0 0;
+    text-shadow: 0 0 5px black;
+
+}
+#fname{
+    color:mediumvioletred;
+    text-shadow: 0 0 10px navy;
+    font-size: 100px;
+}
+#lname{
+    color:salmon;
+    text-shadow: 0 0 10px midnightblue;
+    font-size: 100px;
+}
+#about h2{
+    font-family: Algerian,sans-serif;
+    color:purple;
+    font-size: 30px;
+    }
+/* ------------- Experience Section -------------- */
+#experience{
+    margin-left: 300px;
+    font-style: italic;
+    color:crimson;
+    padding: 20px;
+    font-size: 18px;
+
+}
+.main-heading{
+    margin-top: 0;
+    font-family: 'Algerian', sans-serif;
+    font-size: 50px;
+    text-shadow:  0 0 5px midnightblue;
+}
+.exp-article{
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 0 0 15px blue;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.exp-article:hover{
+    transform:perspective(400px) rotateY(-20deg);
+}
+.exp-article h2{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.exp-article p{
+    font-size: 18px;
+    color: gray;
+}
+.exp-article-button{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 0 5px dodgerblue;
+}
+/*-------------- Education Section ---------- */
+#edu-section{
+    margin-left: 300px;
+    padding: 18px;
+    color: #5e0143;
+    font-size: 20px;
+    text-shadow: #8d785f;
+    font-style: italic;
+
+}
+.edu-article{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px navy;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.edu-article:hover{
+    transform: perspective(400px) rotateX(20deg);
+}
+.edu-article h2{
+    font-family: 'Lobster', cursive;
+    color: midnightblue;
+}
+.edu-article p{
+    font-size: 20px;
+    color: gray;
+}
+/* ------------------ Skills Section ---------------- */
+#skills-section{
+    margin-left: 300px;
+    padding: 20px;
+    font-style: italic;
+}
+.skills-article{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px blueviolet;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.skills-article:hover{
+    transform: perspective(400px) rotateX(-10deg);
+}
+.skills-article h2{
+    font-family: 'Lobster', cursive;
+    color: dodgerblue;
+}
+.skills-article p{
+    font-size: 20px;
+    color: gray;
+}
+.fab , .fas{
+    margin: 10px;
+}
+.fab:hover , .fas:hover{
+    color: deepskyblue;
+}
+/* ------------------ Interests Section ------------ */
+#interests{
+    margin-left: 300px;
+    padding: 20px;
+    color: #5e0143;
+    font-size: 20px;
+    text-shadow: #8d785f;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+
+}
+#interests h2{
+    font-family: 'Lobster', cursive;
+    color: rebeccapurple;
+}
+
+/* ---------------- Certification SEction ------------- */
+#cert-section{
+
+    padding: 20px;
+}
+#cert-text{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.cert-article{
+    padding: 5px;
+    box-shadow: 0 0 15px blueviolet;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.5s;
+}
+.cert-article p{
+    font-size: 18px;
+}
+.cert-article:hover{
+    background-color: violet;
+    color: navajowhite;
+    transform: perspective(400px) translateY(-20px);
+}
+.cert-article img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    box-shadow: 0 0 10px navy;
+}
+/*---------Declaration Section----*/
+#declaration{
+    padding: 18px;
+    color: #5e0143;
+    font-size: 20px;
+    text-shadow: #8d785f;
+    font-style:italic;
+
+}
+
+
+article p{
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;font-size: 20px;color: black;
+}
+
+article h4{
+
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Algerian;
+}
+
+
+
+
+
+
+
